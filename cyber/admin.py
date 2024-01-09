@@ -13,3 +13,4 @@ class cyberAdmin(admin.ModelAdmin):
 
 
 admin.site.register(cyber, cyberAdmin)
+
