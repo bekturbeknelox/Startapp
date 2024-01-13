@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #191d3e;
+
+    height: 1000px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0f1332;
+    width: 100%;
+}
+
+.title {
+    margin-left: 100px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo > span {
+    margin-top: 7px;
+}
+
+.title > a {
+    text-align: center;
+    font-family: 'Comfortaa', sans-serif;
+    color: white;
+    letter-spacing: 10px;
+    font-size: 35px;
+    font-weight: 700;
+    text-shadow: 0px 0px 3px white;
+}
+
+.registr {
+    display: flex;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 500;
+    margin-right: 100px;
+}
+
+.registr > a {
+    margin-right: 15px;
+}
+
+.reg {
+    background-color: rgb(0, 37, 74);
+    border-radius: 7px;
+    padding: 10px 25px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    display: flex;
+}
+
+.steam-icon {
+    margin-right: 10px;
+    width: 35px;
+}
+
+.chicken-icon {
+    width: 48px;
+    margin-right: 25px;
+}
